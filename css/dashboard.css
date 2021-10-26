@@ -1,0 +1,99 @@
+body {
+    font-size: 16px;
+}
+
+.feather {
+    width: 16px;
+    height: 16px;
+    vertical-align: text-bottom;
+}
+
+
+/*
+   * Navbar
+   */
+
+.sticky-top {
+    background-color: #641295;
+}
+
+.sticky-top a {
+    color: white;
+}
+
+.navbar-brand {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.navbar .navbar-toggler {
+    top: .25rem;
+    right: 1rem;
+}
+
+.navbar .form-control {
+    padding: .75rem 1rem;
+    border-width: 0;
+    border-radius: 0;
+}
+
+.form-control-dark {
+    color: #fff;
+    background-color: rgba(255, 255, 255, .1);
+    border-color: rgba(255, 255, 255, .1);
+}
+
+.form-control-dark:focus {
+    border-color: transparent;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+}
+
+.buttons-html5,
+.buttons-print {
+    background-color: #641295;
+    color: white;
+    border: none;
+    padding: 5px 25px;
+}
+
+.buttons-html5:focus,
+.buttons-print:focus {
+    background-color: #2b0940;
+    box-shadow: none;
+    outline: none;
+    border: 1px solid white;
+}
+
+.buttons-excel:before {
+    font-family: 'FontAwesome';
+    content: '\f1c3';
+    padding-right: 5px;
+    position: relative;
+}
+
+.buttons-pdf:before {
+    font-family: 'FontAwesome';
+    content: '\f1c1';
+    padding-right: 5px;
+    position: relative;
+}
+
+.buttons-print:before {
+    font-family: 'FontAwesome';
+    content: '\f02f';
+    padding-right: 5px;
+    position: relative;
+}
+
+.table thead th {
+    min-width: 100px;
+    vertical-align: middle;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar-brand {
+        font-size: .85rem;
+    }
+}

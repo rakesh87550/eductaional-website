@@ -1,0 +1,84 @@
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;display=swap";
+::-webkit-scrollbar {width:3px;background: #d4d4d4;}
+::-webkit-scrollbar-thumb {background:#c1095e}
+:root {
+  --main: #641295;
+  --light: rgba(100,18,149, .4);
+  --sub: #f74b00;
+  --bgmain:rgb(0,190,165,.3);
+  --bg-grad:linear-gradient(120deg, rgba(100,18,149,1) 50%, rgba(255,255,255,1) 80%);
+}
+
+html{background: #000;}
+body{margin: 0;padding: 0;font-family:poppins,sans-serif;color:#2e2e30;background-color:#fff;font-size:15px;position: relative;}
+h1,h2,h3,h4,h5,h6{line-height:1;}
+hr{}
+input[type=text], input[type=email], input[type=number], input[type=file], input[type=tel], input[type=month], input[type=date], select{width: 100%;margin-bottom:0px;height:45px;padding:10px 15px;border:1px solid #999;border-radius:5px !important;}
+input:focus, select:focus{outline: none;border-color: var(--main);}
+label{font-size:14px;color:#222;padding-left:15px;margin-bottom:0px;}
+table{width: 100%;}
+table tbody tr{margin-bottom:10px!important;}
+header{padding:0px;box-shadow: 0px 0px 6px #999;}
+header .navbar{padding: 0px;background: #fff;}
+header .navbar .navbar-brand{text-align: center;}
+header .navbar .navbar-brand img{height: 70px;width: auto;float: left;}
+header .navbar .navbar-brand span{font-size:35px;color: var(--main);font-weight: 600;vertical-align: middle;padding:10px 20px;display: inline-block;}
+.formSec{padding:30px 0px 50px;}
+
+.formSec_title p{color:var(--sub);margin:0;}
+.profile_pic{position: absolute;background: #fff; bottom:50px;height:180px;width:180px;border-radius: 10px!important;border:1px solid #e5e5e5;}
+.profile_label{cursor: pointer;background:var(--sub);color:#fff;padding: 10px 20px;margin-top:23px;width:180px;text-align: center;}
+.formDiv .input-group{margin-bottom:10px;}
+.formDiv .input-group p{color: #000;font-size: 16px;}
+.formDiv .input-group input[type=checkbox]{width:20px !important;display: inline-block;height: 20px;}
+.formTitle h4{line-height:1.5;background:var(--bg-grad);margin:20px 0px 10px;color:#fff;padding: 0px 15px;font-size: 24px;}
+.formTitle h5{line-height:1.5;background:#fff;margin:0px 0px;color:var(--sub);padding: 0px 15px;text-align: center;}
+.table_gap{margin: 20px auto!important;display: block;color: var(--sub);font-weight: 600;text-align: center;font-size: 18px;}
+
+.sign_input label{font-size: 15px;color:#000;font-weight: 600;}
+
+.bttn{width: 200px;padding:7px 25px;margin: 20px auto!important;transition: .5s;background: #333;color: #fff;border:2px solid #333;}
+.bttn:hover{background: #fff;color:#222;border-radius: 30px;font-weight: 600;}
+.bttn-submit{background: var(--sub);color: #fff;border:2px solid var(--sub);}
+.bttn-submit:hover{background: #fff;color: var(--sub);}
+.bttn-pdf{background: var(--main);color: #fff;border:2px solid var(--main);}
+.bttn-pdf:hover{background: #fff;color: var(--main);}
+
+.pdf_body{width:1000px;margin: 0px auto;}
+.printSec .profile_photo{position: relative;}
+.printSec .profile_photo img{height: 200px;margin-top: 20px;}
+.printSec .personalDetails table tr td{padding:10px 15px; border: 1px solid var(--light);}
+.printSec .courseDetails h4{font-size: 15px;font-weight: 600;}
+.printSec .courseDetails h3, .addressDetails h3{font-size: 22px;font-weight: 600;color:var(--main);padding: 10px 0px;margin:10px 0px;text-decoration: underline;}
+
+.printSec .addressDetails{padding:15px 0px;}
+.printSec .addressDetails table td{padding:10px 15px; border: 1px solid var(--light);}
+.printSec .addressDetails table td h4{font-size: 15px;font-weight: 600;}
+.publishDetails h4{display: initial;font-size: 15px;font-weight: 600;}
+h4.term{display: block;}
+.publishDetails.publish_right{width: 100%;text-align: right;}
+.publishDetails.publish_right img{height: 80px;width:200px;}
+img.formSignature{height: 80px;width:100%;}
+.publishDetails ul{list-style: none;padding: 0;}
+
+
+
+@media only screen and (max-width:767px){
+input[type=text], input[type=email], input[type=number], input[type=file], input[type=tel], input[type=month], input[type=date], select{height: 40px;padding:3px 10px;font-size:13px;}
+input[type=file]{height: 30px;font-size: 8px;padding:5px 5px;border-radius: 3px;}
+label{font-size: 12px;}
+header .navbar .navbar-brand img{height:45px;}
+header .navbar .navbar-brand span{font-size: 16px;padding: 15px 10px;}
+.formSec{padding:20px 0px;}
+.profile_pic{position: relative;bottom: 0;}
+.formTitle h4{font-size: 18px;}
+.formSec_title h4{font-size:16px;}
+.formSec_title h5{font-size: 14px;}
+.formSec_title p{font-size: 12px;}
+
+.address_check + label{font-size: 11px;padding-left: 5px;}
+
+.qualification_datasheet thead tr th label, .semesterMarksheet_table tr th{font-size: 6px;}
+.qualification_datasheet tbody tr td, .semesterMarksheet_table tr td{width: 16.5% !important;}
+.qualification_datasheet tbody tr td, .semesterMarksheet_table tr td input{height: 30px;font-size: 8px;padding:2px 0px;}
+}
