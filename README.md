@@ -1,6 +1,8 @@
 # eductaional-website
 A educational website with apply now feature. After applied the form student get pdf of the submitted details. A admin dashboard is created where admin can check documents of the users and save it by excel or pdf format.
 
+Demo : http://educationapply.unaux.com/
+
 ![1](https://user-images.githubusercontent.com/49247268/138836508-65e9df1f-6a5e-43a0-a86c-5bcca16b6b0c.PNG)
 ![2](https://user-images.githubusercontent.com/49247268/138836519-bd1c7dd9-8f3d-4ffd-8205-109f47fe181b.PNG)
 ![3](https://user-images.githubusercontent.com/49247268/138836522-3dff7e82-ff09-4338-9ef5-d5a1b7a84f07.PNG)
